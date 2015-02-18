@@ -1,0 +1,1 @@
+[HRMS] Interview Missed Notification - %candidateName% applied for %vacancyName% vacancy missed the interview

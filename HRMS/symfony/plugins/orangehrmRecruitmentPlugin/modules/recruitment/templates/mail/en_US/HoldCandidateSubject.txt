@@ -1,0 +1,1 @@
+[HRMS] Candidate Hold Notification - %candidateName% Kept on Hold for %vacancyName% vacancy

@@ -1,0 +1,47 @@
+Client Info
+
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Remote Address : ::1
+
+Server Info
+
+Host : localhost
+PHP Version : 5.4.7
+Server : Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7
+Admin : postmaster@localhost
+
+Document Root : C:/xampp/htdocs
+ROOT_PATH : C:\xampp\htdocs\orangehrm
+
+OrangeHRM Installation Log
+
+Mon, 06 May 2013 02:51:24 +0200 DB Creation - Starting
+Mon, 06 May 2013 02:51:25 +0200 DB Creation - Done
+Mon, 06 May 2013 02:51:25 +0200 DB Creation - No Errors
+Mon, 06 May 2013 02:51:27 +0200 Fill Data Phase 1 - Starting
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - Connected to the DB Server
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - Selected the DB
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - Reading DB Script
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - Opened DB Script
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - Read DB script
+Mon, 06 May 2013 02:51:29 +0200 Fill Data Phase 1 - There are 248 Statements in the DB script
+Mon, 06 May 2013 02:52:24 +0200 Fill Data Phase 1 - Done
+Mon, 06 May 2013 02:52:24 +0200 Fill Data Phase 1 - No Errors
+Mon, 06 May 2013 02:52:26 +0200 Fill Data Phase 2 - Starting
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - Connected to the DB Server
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - Selected the DB
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - Reading DB Script
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - Opened DB Script
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - Read DB script
+Mon, 06 May 2013 02:52:27 +0200 Fill Data Phase 2 - There are 45 Statements in the DB script
+Mon, 06 May 2013 02:52:30 +0200 Fill Data Phase 2 - Done
+Mon, 06 May 2013 02:52:30 +0200 Fill Data Phase 2 - No Errors
+Mon, 06 May 2013 02:52:32 +0200 Create DB user - Starting
+Mon, 06 May 2013 02:52:33 +0200 Create DB user - Done
+Mon, 06 May 2013 02:52:33 +0200 Create DB user - No Errors
+Mon, 06 May 2013 02:52:35 +0200 Create OrangeHRM user - Starting
+Mon, 06 May 2013 02:52:36 +0200 Create OrangeHRM user - Done
+Mon, 06 May 2013 02:52:36 +0200 Create OrangeHRM user - No Errors
+Mon, 06 May 2013 02:52:38 +0200 Write Conf - Starting
+Mon, 06 May 2013 02:52:38 +0200 Write Conf - Done
+Mon, 06 May 2013 02:52:38 +0200 Write Conf - No Errors

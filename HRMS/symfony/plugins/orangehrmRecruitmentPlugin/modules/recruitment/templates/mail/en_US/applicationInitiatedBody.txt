@@ -1,0 +1,26 @@
+<style type="text/css">
+  p {font-family:Verdana,Helvetica,sans-serif;font-size: 12px;margin:0 }
+  span {font-family:Verdana,Helvetica,sans-serif;font-size: 13px;}
+</style>
+<span>Hi %recipientFirstName%,</span><br/><br/>
+
+<span><b>%candidateName%</b> has applied for <b>%vacancyName%</b> vacancy. Below is the details of it.</span> <br/><br/>
+
+<p>
+%candidateName%, %candidateEmail%, %candidateContactNumber%
+%candidateMicroresume%
+</p>
+
+<span><a href="%viewCandidate%">View </a> | <a href="%shortlistCandidate%">Shortlist</a> | <a href="%rejectCandidate%">Reject</a> |<a href="%downloadResume%">Download </a> </span><br/>
+<br/>
+<span>
+Thank you.<br/>
+Synerzip HRMS<br/>
+%synerzipHRMSite%<br/>
+</span>
+<br/>
+<span style="font-family:Courier New,Courier,Monospace;font-face:font-size: 8px;">
+You were sent this mail, as you are hiring manager for %vacancyName% or synerzip HR.<br/>
+Note: This is an automated notification. Please don't reply to this mail.
+</span>
+

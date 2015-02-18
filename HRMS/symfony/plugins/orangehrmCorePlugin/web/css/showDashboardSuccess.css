@@ -1,0 +1,104 @@
+#content .box #panel-calender #calendar {
+	margin: 0 auto;
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	max-height: 328px;
+	overflow-y:scroll;
+}
+legend {
+  padding: 0.2em 0.5em;
+  font-size:90%;
+  margin-left: 3%;
+  }
+#content .box #eventpanel{
+  	border: thin solid #fc9a24;
+  }
+#content .box #myleave #panel-2 {
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 0px;
+}
+#content .box #panel-calender{
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 0px;
+}
+#content .box #divpanel-3 #panel-3, #panel-3-1{
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 0px;
+}
+#content .box #Birthday #panel-birthday{
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 0px; 
+	margin-left: 2%; 
+	width:96%;
+}
+#content .box #Pholiday #panel-rightpholiday{
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 0px; 
+	margin-left: 2%; 
+	width:96%;
+}
+#content .box #myleave {
+	float:left; 
+	width:20%; 
+	margin-left: 1%; 
+	min-height: 328px;
+}
+#content .box #eventpanel #Pholiday{
+	margin-left: 1%; 
+	max-width: 97%;  
+	min-width: 97%; 
+	float: left;  
+	margin-top: 4%;
+	overflow-x: auto;
+	max-height:200px;
+	
+}
+#content .box #eventpanel #Birthday{
+	margin-left: 1%; 
+	max-width: 97%;  
+	min-width: 97%; 
+	float: left; 
+	overflow-x: auto;
+    max-height:154px;
+}
+#content .box #eventpanel #Training{
+	margin-left: 1%; 
+	width: 97%; 
+	float: left; 
+	display: none;
+}
+#content .box #eventpanel #Training #panel-training{
+	height: 100%; 
+	border: 2px solid #fc9a24; 
+	margin-top: 1px; 
+	margin-left: 2%; 
+	width:97%;
+}
+#content .box #pendingfeedback {
+	float:left; 
+	width:34%; 
+	margin-top: 1%; 
+	max-height: 328px;  
+	overflow: auto; 
+	margin-left: 1%;
+}
+#content .box #divpanel-3 {
+	float:left; 
+	width:40%;  
+	margin-top: 0px;
+	margin-left:1%;
+	max-height: 375px; 
+	overflow: auto;
+}
+
+table thead tr .header {
+    background-image: none;
+}
+

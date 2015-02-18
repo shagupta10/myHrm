@@ -1,0 +1,9 @@
+form ol li span.validation-error {
+    font-size: 12px;    
+	display:block;
+	/*z-index:9999; This makes error to appear over menu */
+	position:absolute;
+	top:87px;
+	left:150px;
+    margin-top: 6px; 
+}

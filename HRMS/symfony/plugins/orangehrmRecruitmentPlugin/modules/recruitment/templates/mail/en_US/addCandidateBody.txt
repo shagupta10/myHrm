@@ -1,0 +1,17 @@
+Hi %recipientFirstName%,
+
+%candidateName% has applied for %vacancyName% vacancy.
+
+Please login to %synerzipHRMSite%, and perform the appropriate action .
+
+You were sent this mail, as you are hiring manager for %vacancyName% or synerzip HR.
+
+
+
+Thank you.
+Synerzip HRMS
+%synerzipHRMSite%
+
+Apply to vacancy:  %synerzipHRMVacancySite%
+
+Note: This is an automated notification. Please don't reply to this mail.

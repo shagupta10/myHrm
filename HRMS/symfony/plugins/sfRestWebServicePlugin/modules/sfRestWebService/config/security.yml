@@ -1,0 +1,16 @@
+default:
+  is_secure: false
+topost:
+  is_secure: false
+leaves:
+  is_secure: false
+events:
+  is_secure: false
+attendance:
+  is_secure: false
+directory:
+  is_secure: false
+searchLeaves:
+  is_secure: false
+loginApi:
+  is_secure: false

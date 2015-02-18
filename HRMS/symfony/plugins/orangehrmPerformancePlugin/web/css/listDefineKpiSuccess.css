@@ -1,0 +1,31 @@
+ ul.top {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+
+ ul.bottom {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+.paginginline{
+	float: right !important;
+     	margin-top: 1%;
+}
+
+.messages {
+	display: none;
+	position: absolute;
+	width: auto;
+	color: #000000;
+	border: 2px solid #1a1a1a;
+	font-size: 100%;
+	display: block;
+}
+
+.msgposition{
+	margin-left:34%;
+}

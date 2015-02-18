@@ -1,0 +1,22 @@
+div#report-results td.right { 
+    padding-right: 20px;
+}
+
+ ul.top {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+
+ ul.bottom {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+.paginginline{
+	 float: right !important;
+     margin-top: 10px;
+}
+

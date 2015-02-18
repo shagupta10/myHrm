@@ -1,0 +1,18 @@
+Hi %recipientFirstName%,
+<br/>
+%candidateName% applied for %vacancyName% vacancy missed interview. 
+<br/>
+Please login to %synerzipHRMSite% and do the needful
+<br/>
+You were sent this mail, as you are hiring manager for %vacancyName% or synerzip HR.
+<br/><br/>
+
+
+Thank you.<br/>
+Synerzip HRMS<br/>
+%synerzipHRMSite%<br/>
+<br/>
+Apply to vacancy:  %synerzipHRMVacancySite%
+<br/>
+
+Note: This is an automated notification. Please don't reply to this mail.

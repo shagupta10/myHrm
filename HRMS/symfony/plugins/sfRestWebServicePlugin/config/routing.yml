@@ -1,0 +1,154 @@
+ws_searchleaves:
+  url: /api/searchleaves
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: searchLeaves, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_events:
+  url: /api/events/:id
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: events, sf_format: json }
+  requirements:
+    id: \w+
+    sf_method: [GET, POST]
+
+ws_eventsAll:
+  url: /api/events
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: events, sf_format: json }
+  requirements:
+    id: \w+
+    sf_method: [GET, POST]
+
+ws_directory:
+  url: /api/directory/:id
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: directory, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_directoryAll:
+  url: /api/directory
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: directory, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_loginapi:
+  url: /api/loginapi
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: loginApi, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_attendance:
+  url: /api/attendance
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: attendance, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_attendancedate:
+  url: /api/attendance/:id
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: attendance, sf_format: json }
+  requirements:
+    id: \d{4}\-\d{2}\-\d{2}
+    sf_method: [GET, POST]
+    
+ws_myinfo:
+  url: /api/myinfo
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: myinfoApi, sf_format: json }
+  requirements:
+    sf_method: [GET, POST]
+
+ws_leavetype:
+  url: /api/leavetypes
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: leaveTypeApi, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_leavetypeall:
+  url: /api/leavetypes/:all
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: leaveTypeApi, sf_format: json }
+  requirements:
+    id: \w+
+    sf_method: [GET, POST]
+
+ws_leaves:
+  url: /api/leaves
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: leaves, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_leavebalance:
+  url: /api/leavebalance/:type
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: leaveBalanceApi, sf_format: json }
+  requirements:
+    id: \w+
+    sf_method: [GET, POST]
+
+ws_empleaves:
+  url: /api/leaves/:id
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: leaves, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_applyleave:
+  url: /api/applyleave
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: applyLeave, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [POST]
+    
+ws_toservice:
+  url: /api/toservice
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: toservice, sf_format: json }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_entry:
+  url: /api/:service.:sf_format
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: entry, sf_format: xml }
+  requirements:
+    id: \d+
+    sf_method: [GET, POST]
+
+ws_resource:
+  url:  /api/:service/:id.:sf_format
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: resource, sf_format: xml }
+  requirements:
+    id: \d+
+    sf_method: [GET, PUT, DELETE]
+
+ws_search:
+  url:  /api/:service/search/:column/:value.:sf_format
+  class: sfRequestRoute
+  param: { module: sfRestWebService, action: search, sf_format: xml }
+  requirements:
+    id: \d+
+    sf_method: [GET]
+
+ws_500:
+  url:  /api/error
+  param: { module: sfRestWebService, action: 500 }

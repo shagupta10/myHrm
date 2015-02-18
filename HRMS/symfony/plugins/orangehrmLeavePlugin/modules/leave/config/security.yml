@@ -1,0 +1,5 @@
+dailyNotification:
+  is_secure: false
+
+weeklyNotification:
+  is_secure: false

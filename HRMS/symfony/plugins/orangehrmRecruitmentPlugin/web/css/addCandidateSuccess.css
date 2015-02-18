@@ -1,0 +1,86 @@
+.addText {
+	color: #363636;
+	text-decoration: underline;
+	/*	padding-left: 140px;*/
+	float: left;
+	cursor: pointer;
+}
+
+.removeText {
+	color: #363636;
+	text-decoration: underline;
+	padding-left: 128px;
+	cursor: pointer;
+	float: left;
+}
+
+.actionDrpDown {
+	width: 150px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	background-color: #CDCDCD !important;
+	border-color: #CCCCCC #BBBBBB #A0A0A0;
+	border-left: 1px solid #BBBBBB;
+	border-right: 1px solid #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	cursor: pointer;
+	font: 98% arial, sans-serif;
+	margin: 0 8px 0 0;
+	outline: medium none;
+	padding: 3px 8px;
+        margin-left: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 170px !important;
+}
+/* Added by Shagupta Faras */
+form ol li .select-static {
+    float:left;
+    width:200px;
+    height:25px;
+    margin-top:1px;
+    padding:3px 6px;
+}
+
+form ol li div span.validation-error {
+	left: 550px;
+}
+
+.disabledActionDrpDown {
+	width: 150px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	background-color: #CDCDCD !important;
+	border-color: #CCCCCC #BBBBBB #A0A0A0;
+	border-left: 1px solid #BBBBBB;
+	border-right: 1px solid #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	cursor: pointer;
+	font: 98% arial, sans-serif;
+	margin: 0 8px 0 0;
+	outline: medium none;
+	padding: 3px 8px;
+        margin-left: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 170px !important;
+}
+.vacancyTbl{
+    border: 1px solid #dedede;
+    margin-left: 150px;
+    
+}
+.vacancyTbl td{
+    border: 1px solid #dedede;
+    padding: 5px;
+    
+}
+.vacancyTbl th{
+    border-bottom: 1px solid #dedede;
+    padding: 5px;
+    
+}

@@ -1,0 +1,1 @@
+[HRMS] Candidate Reject Notification - %candidateName% rejected for %vacancyName% vacancy

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+ORGANIZER:MAILTO:%performerEmail%
+DTSTART:%dtstart%
+DTEND:%dtend%
+LOCATION:Synerzip
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:%calId%
+DTSTAMP:%todaystamp%
+ATTENDEE;PARTSTAT=NEEDS-ACTION;RSVP= TRUE;MAILTO:%performerEmail%
+DESCRIPTION: %interviewType%.  %interviewer% will take the interview of %candidateName%
+SUMMARY:Interview scheduled for %candidateName%  shortlisted for %vacancyName% vacancy
+PRIORITY:5
+CLASS:PUBLIC
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

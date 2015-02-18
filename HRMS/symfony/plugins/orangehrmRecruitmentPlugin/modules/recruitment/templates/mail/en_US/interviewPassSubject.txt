@@ -1,0 +1,1 @@
+[HRMS] Interview Passed Notification - %candidateName% applied for %vacancyName% vacancy passed the interview

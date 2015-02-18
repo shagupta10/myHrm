@@ -1,0 +1,1 @@
+[HRMS] Candidate Registration Notification - %candidateName% Applied for %vacancyName% vacancy

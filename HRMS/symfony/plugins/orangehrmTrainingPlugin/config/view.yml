@@ -1,0 +1,12 @@
+addTrainingSuccess:
+  layout: freshorange
+addTrainingTypeSuccess:
+  layout: freshorange
+viewTrainingSuccess:
+  layout: freshorange
+addTrainerSuccess:
+  layout: freshorange
+showTrainingsSuccess:
+  layout: freshorange
+trainingAttendanceSuccess:
+  layout: freshorange

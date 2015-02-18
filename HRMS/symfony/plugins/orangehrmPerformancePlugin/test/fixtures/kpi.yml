@@ -1,0 +1,4 @@
+DefineKpi:
+  0: {id: 2, jobtitlecode: 1, KpiTitle: 'indicator 1', min: 1, max: 10, default: 1  }
+  1: {id: 3, jobtitlecode: 2, KpiTitle: 'indicator 2', min: 1, max: 10 }
+  2: {id: 4, jobtitlecode: 3, KpiTitle: 'indicator 3', min: 1, max: 5 }

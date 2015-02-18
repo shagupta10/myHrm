@@ -1,0 +1,15 @@
+.publishJobVacancySeparator {
+    border-bottom-color:#DEDEDE;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+
+form ol li.keyskillerror span.validation-error {
+	margin-top: 8.1%;
+	margin-left: 13%;
+}
+
+form ol li.haveskillerror span.validation-error {
+	margin-top: 8.1%;
+	margin-left: 13%;
+}

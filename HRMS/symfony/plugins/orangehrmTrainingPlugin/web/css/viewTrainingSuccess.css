@@ -1,0 +1,13 @@
+.searchForm form ol li ul li{
+	margin: 0 4px 4px 0;
+	width: auto;
+	float: auto;
+}  
+.token-input-token-facebook{
+	width : 100%;
+	height: 15px;
+}
+span.token-input-delete-token-facebook {
+	float: right;
+	height: 15px;
+}

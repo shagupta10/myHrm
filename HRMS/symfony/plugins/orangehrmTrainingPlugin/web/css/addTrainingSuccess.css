@@ -1,0 +1,39 @@
+.redSpan {
+	position:relative;
+	border-color: #aa4935;
+	color: #aa4935;
+	padding-right: 300px;
+	margin-left: 150px;
+}
+
+.inlineElements {
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.showError{
+	display:block !important;
+}
+
+span.fromTimeMsg {
+	margin-left:175px;
+}
+
+span.toTimeMsg {
+	margin-left:304px;
+}
+.valid-date {
+	color: #aa4935;
+	font-size: 12px;    
+	display:block;
+	/*z-index:9999; This makes error to appear over menu */
+	position:absolute;
+	top:21px;
+	left:150px;
+	margin-top: 6px;
+}
+.timeEntry-control{
+		margin-left: 7px;
+		margin-top:4px;
+	}

@@ -1,0 +1,199 @@
+Training:
+  tableName: ohrm_training
+  columns:
+    id:
+      name: id as id
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    topic:
+      type: string(200)
+    description:
+      name: description as description
+      type: string()
+    attendee_point:
+      name: attendee_point as attendeePoint
+      type: integer(2)
+    trainer_point:
+      name: trainer_point as trainerPoint
+      type: integer(2)
+    total_hours:
+      name: total_hours as totalHours
+      type: double     
+    location:
+      type: string(50)
+    created_date:
+      name: created_date as createdDate
+      type: date
+    updated_date:
+      name: updated_date as updatedDate
+      type: date
+    created_by:
+      name: created_by as createdBy
+      type: integer(7)
+    updated_by:
+      name: updated_by as updatedBy
+      type: integer(7)
+    is_published:
+      name: is_published as isPublished
+      type: integer(1)
+      default: '1'
+    is_deleted:
+      name: is_deleted as isDeleted
+      type: integer(1)
+      default: '0'
+	
+  relations:
+    TrainingSchedule:
+      local: id
+      foreign: training_id
+      type: many
+    TrainingTrainer:
+      local: id
+      foreign: training_id
+      type: many
+    TrainingAttendees:
+      local: id
+      foreign: training_id
+      type: many
+
+TrainingAttendees:
+  tableName: ohrm_training_attendees
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    emp_number:
+      name: emp_number as empNumber
+      type: integer(7)
+    training_id:
+      type: integer(7)
+    reg_date:
+      name: regDate
+      type: date
+
+TrainingTrainer:
+  tableName: ohrm_training_trainer
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    trainer_type:
+      name: trainer_type as trainerType
+      type: integer(1)
+    training_id:
+      type: integer(7)
+    emp_number:
+      type: integer(7)
+    trainer_id:
+      type: integer(7)
+  relations:
+    Trainer:
+      local: trainer_id
+      foreign: id
+      type: many
+    TrainerEmployee:
+      class: Employee
+      local: emp_number
+      foreign: emp_number
+      type: many
+
+Trainer:
+  tableName: ohrm_trainer
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    first_name:
+      name: first_name as firstName
+      type: string(50)
+    last_name:
+      name: last_name as lastName
+      type: string(50)
+    details:
+      type: string()
+    is_deleted:
+      name: is_deleted as isDeleted
+      type: integer(1)
+      default: '0'
+  relations:
+    Training:
+      local: id
+      foreign: trainer
+      type: many
+      
+TrainingSchedule:
+  tableName: ohrm_training_schedule
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    training_id:
+      name: training_id as trainingId
+      type: integer(7)
+    session_date:
+      name: session_date as sessionDate
+      type: date
+    topic:
+      name: topic
+      type: string(200)
+    description:
+      type: text
+    from_time:
+      name: from_time as fromTime
+      type: time(10)
+    to_time:
+      name: to_time as toTime
+      type: time(10)   
+      
+TrainingAttendance:
+  tableName: ohrm_training_attendance
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    emp_number:
+      name: emp_number as empNumber
+      type: integer(7)
+    training_id:
+      name: training_id as trainingId
+      type: integer(7)
+
+TrainingPoint:
+  tableName: ohrm_training_points
+  columns:
+    id:
+      type: integer(7)
+      primary: true
+      autoincrement: true
+    emp_number:
+      name: emp_number as empNumber
+      type: integer(7)
+    training_id:
+      name: training_id as trainingId
+      type: integer(7)
+    points:
+      type: integer(2)
+    action:
+      type: integer(1)
+    added_by:
+      type: integer(7)
+  relations:
+    Training:
+      local: training_id
+      foreign: id
+      type: one
+    Employee:
+      local: emp_number
+      foreign: emp_number
+      type: one
+    AddedBy:
+      class: Employee
+      local: added_by
+      foreign: emp_number
+      type: one

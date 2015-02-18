@@ -1,0 +1,41 @@
+saveKpiSuccess:
+  layout: freshorange
+  
+updateKpiSuccess: 
+  layout: freshorange
+  
+copyKpiSuccess:
+  layout: freshorange
+
+listDefineKpiSuccess:
+  layout: freshorange
+  
+viewReviewSuccess:
+  layout: freshorange
+
+saveReviewSuccess:
+  layout: freshorange
+
+performanceReviewSuccess:
+  layout: freshorange
+  
+reviewPerformanceSuccess:
+  layout: freshorange
+  
+addFeedbackSuccess:
+  layout: freshorange
+
+viewMyFeedbackSuccess:
+  layout: freshorange
+
+copyReviewSuccess:
+  layout: freshorange
+
+viewMultiSourceFeedbackSuccess:
+  layout: noHeader
+
+viewPerformanceReviewSuccess:
+  layout: noHeader
+
+performanceConfigSuccess:
+  layout: freshorange

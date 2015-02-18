@@ -1,0 +1,1 @@
+[HRMS] Interview Fail Notification - %candidateName% who applied for %vacancyName% vacancy failed interview

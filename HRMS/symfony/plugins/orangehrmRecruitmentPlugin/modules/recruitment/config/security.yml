@@ -1,0 +1,6 @@
+## YAML Template.
+---
+viewCandidateAttachment:
+  is_secure: false
+emailDigest:
+  is_secure: false

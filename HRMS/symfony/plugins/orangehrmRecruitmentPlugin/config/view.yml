@@ -1,0 +1,16 @@
+viewJobVacancySuccess:
+  layout: freshorange
+addJobVacancySuccess:
+  layout: freshorange
+changeCandidateVacancyStatusSuccess:
+  layout: freshorange
+jobInterviewSuccess:
+  layout: freshorange
+viewCandidatesSuccess:
+  layout: freshorange
+addCandidateSuccess:
+  layout: freshorange
+viewMyCandidatesSuccess:
+  layout: freshorange
+viewJobRequestsSuccess:
+  layout: freshorange

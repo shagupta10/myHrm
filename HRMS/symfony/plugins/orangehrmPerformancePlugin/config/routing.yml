@@ -1,0 +1,7 @@
+performance_reviews:
+  url:   /performance/viewReview/*  
+  param: { module:performance, action: viewReview }
+
+kpi_list:
+  url:   /performance/listDefineKpi/*  
+  param: { module:performance, action: listDefineKpi }

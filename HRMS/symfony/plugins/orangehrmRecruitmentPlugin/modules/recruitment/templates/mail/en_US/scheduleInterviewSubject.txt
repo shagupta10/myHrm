@@ -1,0 +1,1 @@
+[HRMS] Interview Scheduled for  %candidateName% (applied for %vacancyName% vacancy)

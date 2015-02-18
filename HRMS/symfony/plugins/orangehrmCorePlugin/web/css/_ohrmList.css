@@ -1,0 +1,35 @@
+#scrollWrapper, #tableWrapper {
+    border: none; 
+    overflow: auto;
+}
+
+#scrollContainer {
+    height: 1px;
+}
+
+#resultTable {
+    overflow: auto;
+} 
+
+table.valueListCell td {
+    white-space: nowrap;
+}
+
+.box ul.top {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+
+.box ul.bottom {
+	display: inline-flex !important;
+	padding: 0 0 0 !important;
+	float: none !important;
+	margin-right: 7px;
+}
+.paginginline{
+	float: right !important;
+     	margin-top: 10px;
+}
+

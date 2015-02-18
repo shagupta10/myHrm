@@ -1,0 +1,16 @@
+Hi %recipientFirstName%,
+<br/>
+%candidateName% who applied for %vacancyName% vacancy not able to clear the interview. 
+<br/>
+Please login to %synerzipHRMSite% and reject the candidate.
+<br/>
+You were sent this mail, as you are hiring manager for %vacancyName% or synerzip HR.
+<br/><br/>
+
+Thank you,<br/>
+Synerzip HRMS<br/>
+%synerzipHRMSite%<br/>
+<br/>
+Apply to vacancy:  %synerzipHRMVacancySite%
+<br/>
+Note: This is an automated notification. Please don't reply to this mail.
